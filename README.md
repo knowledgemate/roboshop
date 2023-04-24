@@ -16,7 +16,7 @@ docker-compose version
 
 * Clone this project.
 ```
-git clone https://github.com/techworldwithsiva/roboshop.git
+git clone https://github.com/knowledgemate/roboshop.git
 ```
 * Build the images for each service.
 ```
