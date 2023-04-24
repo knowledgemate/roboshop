@@ -5,6 +5,15 @@ Roboshop is a sample popular Microservices application. It is owned by Instana w
 We are going to create Docker images for every service and deploy them as Docker containers in EC2 instance.
 
 #### Steps:
+sudo yum install docker git -y
+
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+docker-compose version
+
+
 * Clone this project.
 ```
 git clone https://github.com/techworldwithsiva/roboshop.git
